@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="We have a wide selection of high-quality scanners that you can use for any task, from graphic design to document scanning. Find the right scanner for your needs today and get the best deals!">
+        <meta name="keywords" content="online scanner store, scanners, store, electronic, technology, digital, store, modern, shop, buy" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Scanners Store</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <div id="feedback-page">
+            <div id="header">
+                <div id="logo">Scanners Store</div>
+                <ul id="navbar">
+                    <li >
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="samples.html">Samples</a>
+                    </li>
+                    <li>
+                        <a href="purchase.html">Purchase</a>
+                    </li>
+                    <li class="current">
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <div class="feedback-form">
+                    <h1>We'll be happy to read your feedback.</h1>
+                    <div class="form-container">
+                        <div id="feedback-errors"></div>
+                        <form action="" method="POST" id="feedback-form">
+                            <div class="form-control">
+                                <label for="name">Name: <span id="name-err"></span></label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="form-control">
+                                <label for="phone">Phone Number:</label>
+                                <input type="number" name="phone" id="phone">
+                            </div>
+                            <div class="form-control">
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                            <div class="form-control">
+                                <label for="subject">Subject:</label>
+                                <input type="text" name="subject" id="subject">
+                            </div>
+                            <div class="form-control">
+                                <label for="topic">Topic:</label>
+                                <select name="topic" id="topic">
+                                    <option value="" disabled="disabled" selected> Choose Topic</option>
+                                    <option value="suggestion"> Suggestion </option>
+                                    <option value="complaint"> Complaint </option>
+                                    <option value="help"> Help </option>
+                                    <option value="idea"> Idea </option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <label for="message"> Write Your Message: </label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            </div>
+                            
+                            <input type="submit" value="Send" id="submit-btn">
+                        </form>
+                    </div>
+        
+                    <div class="img-container">
+                        <img src="images/feedback.png" alt="feedback icon">
+                    </div>
+                    <!-- Clear Floating -->
+                    <div class="float-fix"></div>
+                </div>
+            </div>
+            <div id="footer">
+                <p>&copy; 2023, All Rights Reserved </p>
+            </div>
+        </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
